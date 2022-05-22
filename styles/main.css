@@ -1,5 +1,8 @@
-img {
+* {
   max-width: 100%;
+  margin: 0;
+  padding: 0;
+  
 }
 
 .site-header {
@@ -47,7 +50,7 @@ img {
 }
 
 .site-navigation-row {
-  background-color: rgba(0, 0, 0, 0.08);
+  background-color: #634100;
   text-transform: uppercase;
   height: 45px;
 }
@@ -62,7 +65,7 @@ img {
   -ms-flex: 1;
   flex: 1;
   line-height: 42px;
-  color: #fff;
+  color: rgb(255, 252, 252);
 }
 
 .site-navigation-row .is-active {
@@ -76,11 +79,11 @@ img {
 }
 
 .mdl-layout__header .mdl-layout__drawer-button {
-  color: #fff;
+  color: rgb(213, 204, 24);
 }
 
 .mdl-layout__content {
-  background-color: #fefefe;
+  background-color: #ffffff;
 }
 
 .site-content {
@@ -102,13 +105,13 @@ img {
 }
 
 .welcome-card > .mdl-card__title {
-  color: #fff;
+  color: rgba(255, 255, 255, 0.622);
   height: 290px;
   background: url("../img/cover.jpg") center/cover;
 }
 
 .event-card {
-  background: #3E4EB8;
+  background: #a59200;
 }
 
 .event-card .mdl-card__actions {
@@ -165,7 +168,7 @@ img {
 }
 
 .homepage-footer {
-  background: #eee;
+  background: #634100;
   margin-bottom: -1em;
   padding: 2rem 0;
 }
@@ -199,7 +202,7 @@ img.article-image {
 }
 
 .demo-card-image__filename {
-  color: #fff;
+  color: #634100;
   font-size: 14px;
   font-weight: 500;
 }
@@ -216,14 +219,17 @@ img.article-image {
   margin-right: 40px;
   margin-bottom: 40px;
   z-index: 900;
+  color: #c2b8b8;
 }
 
 footer .mdl-logo a {
-  color: #fff;
+  color: #634100;
   text-decoration: none;
-  border-bottom: 1px dotted #aaa;
+  border-bottom: 9px dotted #aaa;
 }
 
 .footer-container {
   margin: 0 auto;
+  color:white;
+  
 }
