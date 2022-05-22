@@ -7,12 +7,14 @@
 
 .site-header {
   position: relative;
+  background-color: #a59200;
 }
 
 .site-header .mdl-layout__header-row {
   padding: 0;
   -ms-flex-pack: center;
   justify-content: center;
+  
 }
 
 .site-description {
@@ -25,6 +27,7 @@
 
 .is-compact .mdl-layout__title span {
   display: none;
+  
 }
 
 .site-logo-row {
@@ -33,6 +36,7 @@
 
 .is-compact .site-logo-row {
   min-height: auto;
+  background-color: #424242;
 }
 
 .site-logo {
@@ -50,7 +54,7 @@
 }
 
 .site-navigation-row {
-  background-color: #634100;
+  background-color:#424242;
   text-transform: uppercase;
   height: 45px;
 }
@@ -89,6 +93,7 @@
 .site-content {
   margin: 1em auto;
   min-height: 580px;
+  background-color:#F1F1E6;
 }
 
 .page-content {
@@ -121,6 +126,7 @@
 .event-card .mdl-card__title {
   -ms-flex-align: start;
       align-items: flex-start;
+      
 }
 
 .event-card .mdl-card__title > h4 {
@@ -138,11 +144,8 @@
 .event-card .mdl-card__actions > .material-icons {
   padding-right: 10px;
 }
-
-.event-card .mdl-card__title,
-.event-card .mdl-card__actions,
-.event-card .mdl-card__actions > .mdl-button {
-  color: #fff;
+button{
+  
 }
 
 .section__play-btn {
@@ -153,6 +156,7 @@
   -ms-flex-pack: center;
   justify-content: center;
   min-height: 150px;
+  
 }
 
 .section__play-btn .material-icons {
@@ -198,7 +202,7 @@ img.article-image {
 .demo-card-image > .mdl-card__actions {
   height: 52px;
   padding: 16px;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(181, 50, 50, 0.3);
 }
 
 .demo-card-image__filename {
@@ -209,6 +213,11 @@ img.article-image {
 
 .form-contact .mdl-textfield {
   width: 100%;
+}
+.map{
+background-color:#a59200;
+padding: 1%;
+
 }
 
 #contact-button {
@@ -233,3 +242,4 @@ footer .mdl-logo a {
   color:white;
   
 }
+
