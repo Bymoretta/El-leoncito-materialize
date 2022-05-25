@@ -240,3 +240,8 @@ footer .mdl-logo a {
   color:white;
   
 }
+.article-image{
+  width: auto;
+  height: 15rem !important;
+  object-fit: cover;
+}
